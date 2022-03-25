@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <link rel="stylesheet" href="mystyle.css" />
+
+
+</head>
+<body>
+
+    <div id="title_container">
+        <h1>Tic Tac Toe</h1>
+        <p id="playerTurn"></p>
+        <button onclick="refresh()">Start Over</button>
+    </div>
+    <div id="container">
+        <span id="a1" class="square" onclick="mark(this)"></span>
+        <span id="b1" class="square" onclick="mark(this)"></span>
+        <span id="c1" class="square" onclick="mark(this)"></span>
+        <span id="a2" class="square" onclick="mark(this)"></span>
+        <span id="b2" class="square" onclick="mark(this)"></span>
+        <span id="c2" class="square" onclick="mark(this)"></span>
+        <span id="a3" class="square" onclick="mark(this)"></span>
+        <span id="b3" class="square" onclick="mark(this)"></span>
+        <span id="c3" class="square" onclick="mark(this)"></span>
+    </div>
+
+    <script src="myscript.js"></script>
+</body>
+</html> 
